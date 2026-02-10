@@ -20,6 +20,15 @@ import numpy as np
 # changing the color of the marker 
 x = [2023,2024,2025,2026]
 y = [38,40,57,68]
+plt.title("Class sizes")
 plt.plot(x,y,marker=".",markersize=20,markerfacecolor="cyan")
 plt.show()
 
+x = [2023,2024,2025,2026]
+y = [38,40,57,68]
+plt.title("Class sizes",
+          fontsize=20,
+          family ="arial",
+          color="red")
+plt.plot(x,y,marker=".",markersize=20,markerfacecolor="cyan")
+plt.show()
